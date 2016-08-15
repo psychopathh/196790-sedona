@@ -87,15 +87,14 @@ text-align: center;
 background-color: bisque;
 }
 
-.image-canyone {
+.image-canyon {
 float: left;
 width: 800px;
 min-height: 255px;
-margin-bottom: 35px;
 }
 
 .fact {
-
+float: right;
 width: 400px;
 margin-bottom: 35px;
 min-height: 255px;
