@@ -4,6 +4,7 @@ line-height: 26px;
 color: #333333;
 font-weight: normal;
 font-family: "Pt Sans", "Arial", sans-serif;
+width: 1200px;
 }
 
 h2 {
@@ -45,7 +46,15 @@ margin-bottom: 45px;
 
 .slogan {
 float: left;
-width: 800px;
+width: 1200px;
+margin-left: auto;
+margin-left: auto;
 margin-bottom: 50px;
 background-color: aquamarine;
+}
+
+.facts {
+float:left;
+width: 410px;
+background-color: beige;
 }
