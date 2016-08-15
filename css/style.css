@@ -19,3 +19,11 @@ line-height: 21px;
 font-weight: bold;
 color: #000000;    
 }
+.main-header {
+margin-bottom: 60px;
+}
+.main-menu {
+float: left;
+width: 1200px;
+background-color: aqua;
+}
