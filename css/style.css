@@ -18,7 +18,7 @@ h3 {
 font-size: 30px;
 line-height: 21px;
 font-weight: bold;
-color: hex;    
+color: #000000;    
 }
 .main-header {
 margin-bottom: 10px;
@@ -57,10 +57,35 @@ background-color: aquamarine;
 float:left;
 width: 410px;
 background-color: beige;
+margin-bottom: 45px;
 height: 255px;
 }
+
 .main-container {
 min-width: 1280px;
 margin-left: auto;
 margin-right: auto;
+padding: 0px 40px;
+}
+
+.facts-image {
+float: left;
+width: 800px;
+margin-right: 0px;
+margin-bottom: 45px;
+}
+
+.features {
+margin-bottom: 50px;    
+}
+
+.features-items {
+float: left;
+min-width: 375px;
+margin-right: 25px;
+background-color: azure;
+}
+
+.features-items:nth-last-child(1) {
+margin-right: 0px;    
 }
