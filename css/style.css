@@ -22,8 +22,16 @@ color: #000000;
 .main-header {
 margin-bottom: 60px;
 }
+
 .main-menu {
 float: left;
 width: 1200px;
 background-color: aqua;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
