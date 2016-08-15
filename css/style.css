@@ -91,18 +91,19 @@ background-color: bisque;
 float: left;
 width: 800px;
 min-height: 255px;
+margin-bottom: 27px;
 }
 
 .fact {
 float: right;
-width: 400px;
 margin-bottom: 35px;
+width: 400px;
 min-height: 255px;
 text-align: center;
 }
 
 .facts-list {
-margin-bottom: 43px;    
+margin-bottom: 43px;
 }
 
 .list-facts {
