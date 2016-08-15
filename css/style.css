@@ -38,6 +38,14 @@ background-color: aqua;
 }
 
 .main-picture {
+float: left;
 width: 1200px;
 margin-bottom: 45px;
+}
+
+.slogan {
+float: left;
+width: 800px;
+margin-bottom: 50px;
+background-color: aquamarine;
 }
