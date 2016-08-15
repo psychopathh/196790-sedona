@@ -20,12 +20,13 @@ font-weight: bold;
 color: #000000;    
 }
 .main-header {
-margin-bottom: 60px;
+margin-bottom: 10px;
 }
 
 .main-menu {
 float: left;
 width: 1200px;
+min-height: 70px;
 background-color: aqua;
 }
 
@@ -34,4 +35,9 @@ background-color: aqua;
 
   display: table;
   clear: both;
+}
+
+.main-picture {
+width: 1200px;
+margin-bottom: 45px;
 }
