@@ -114,15 +114,25 @@ text-align: center;
 }
 
 .question {
-float: left;
 min-height: 290px;
-width: 1200px; 
+width: 450px;
+text-align: center;
+margin: 0 auto;
 }
 
 .registration {
 margin: 0 auto;
 min-height: 481px;
 width: 575px;
+background-color: aqua;
+}
+
+.registration h3 {
+text-align: center;
+background-color: #766357;
+padding:35px 0;
+color: #ffffff;
+font-weight: normal;
 }
 
 .map {
@@ -130,20 +140,28 @@ width: 1200px;
 min-height: 475px;
 }
 
+.main-footer {
+background-color: #ffffff;
+min-height: 120px;
+}
+
 .visit {
 float: left;
 width: 400px;
 height: 120px;
+text-align: center;
 }
 
 .social-footer {
 float: left;
 width: 400px;
 height: 120px;
+text-align: center;
 }
 
 .footer-copyright {
 float: left;
 width: 400px;
 height: 120px;
+text-align: center;
 }
