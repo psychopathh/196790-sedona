@@ -4,7 +4,8 @@ line-height: 26px;
 color: #333333;
 font-weight: normal;
 font-family: "Pt Sans", "Arial", sans-serif;
-width: 1200px;
+width: 1280px;
+padding: 0px 40px;
 }
 
 h2 {
@@ -61,13 +62,6 @@ margin-bottom: 45px;
 height: 255px;
 }
 
-.main-container {
-min-width: 1280px;
-margin-left: auto;
-margin-right: auto;
-padding: 0px 40px;
-}
-
 .facts-image {
 float: left;
 width: 800px;
@@ -89,3 +83,4 @@ background-color: azure;
 .features-items:nth-last-child(1) {
 margin-right: 0px;    
 }
+
