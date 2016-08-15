@@ -5,7 +5,7 @@ color: #333333;
 font-weight: normal;
 font-family: "Pt Sans", "Arial", sans-serif;
 width: 1280px;
-padding: 0px 40px;
+background-color: #f2f2f2;
 }
 
 h2 {
@@ -21,6 +21,12 @@ line-height: 21px;
 font-weight: bold;
 color: #000000;    
 }
+
+.global-wrapper{
+margin-right: auto;
+margin-left: auto;    
+}
+
 .main-header {
 margin-bottom: 10px;
 }
@@ -29,58 +35,80 @@ margin-bottom: 10px;
 float: left;
 width: 1200px;
 min-height: 70px;
-background-color: aqua;
 }
 
 .clearfix::after {
   content: "";
-
   display: table;
   clear: both;
 }
 
 .main-picture {
-float: left;
 width: 1200px;
 margin-bottom: 45px;
 }
 
 .slogan {
 float: left;
-width: 1200px;
-margin-left: auto;
+min-width: 575px;
+margin-right: auto;
 margin-left: auto;
 margin-bottom: 50px;
+min-height: 160px;
 background-color: aquamarine;
 }
 
 .facts {
 float:left;
-width: 410px;
-background-color: beige;
+width: 400px;
 margin-bottom: 45px;
-height: 255px;
+min-height: 255px;
 }
 
 .facts-image {
 float: left;
 width: 800px;
-margin-right: 0px;
+min-height: 255px;
 margin-bottom: 45px;
 }
 
 .features {
-margin-bottom: 50px;    
+margin-bottom: 77px;    
 }
 
 .features-items {
 float: left;
 min-width: 375px;
+min-height: 210px;
 margin-right: 25px;
-background-color: azure;
 }
 
 .features-items:nth-last-child(1) {
 margin-right: 0px;    
+}
+
+.image-canyone {
+float: left;
+width: 800px;
+height: 255px;
+margin-bottom: 35px;
+}
+
+.fact {
+float: left;
+width: 400px;
+margin-bottom: 35px;
+min-height: 255px;
+}
+
+.facts-list {
+margin-bottom: 43px;    
+}
+
+.list-facts {
+float: left;
+min-width: 375px;
+min-height: 255px;
+margin-right: 25px;
 }
 
