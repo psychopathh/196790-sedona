@@ -75,14 +75,14 @@ margin-bottom: 77px;
 
 .features-items {
 float: left;
-min-width: 400px;
+width: 400px;
 min-height: 210px;
 }
 
 .image-canyone {
 float: left;
 width: 800px;
-height: 255px;
+min-height: 255px;
 margin-bottom: 35px;
 }
 
