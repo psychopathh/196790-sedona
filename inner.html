@@ -32,49 +32,29 @@
         </header>
         <div class="container">
             <form class="form-search">
-                <fieldset>
-                    <div class="info">
-                        <h3>
-                            Инфраструктура:
-                        </h3>
-                        <input type="checkbox" class="conditions" checked>
-                        <p>
-                            Бассейн
-                        </p>
-                        <input type="checkbox" class="conditions">
-                        <p>
-                            Парковка
-                        </p>
-                        <input type="checkbox" class="conditions">
-                        <p>
-                            Wi-FI
-                        </p>
-                    </div>
+                <fieldset class="infrastructure">
+                    <legend class="filter-string">Инфраструктура:</legend>
+                    <input type="checkbox" class="conditions" id="swim" checked>
+                    <label for="swim">Бассейн</label>
+                    <input type="checkbox" class="conditions" id="parking">
+                    <label for="parking">Парковка</label>
+                    <input type="checkbox" class="conditions" id="wifi">
+                    <label for="wifi">Wi-FI</label>
                 </fieldset>
-                <fieldset>
-                    <div class="housing">
-                        <h3>
-                            Тип жилья:
-                        </h3>
-                        <input type="checkbox" class="conditions" checked>
-                        <p>
-                            Гостиница
-                        </p>
-                        <input type="checkbox" class="conditions" checked>
-                        <p>
-                            Мотель
-                        </p>
-                        <input type="checkbox" class="conditions" checked>
-                        <p>
-                            Апартаменты
-                        </p>
-                    </div>
+                <fieldset class="accommodation">
+                    <legend class="filter-string">Тип жилья:</legend>
+                    <input type="checkbox" class="conditions" id="hotel" checked>
+                        <label for="hotel">Гостиница</label>
+                        <input type="checkbox" class="conditions" id="motel" checked>
+                        <label for="motel">Мотель</label>
+                        <input type="checkbox" class="conditions" id="chamber" checked>
+                        <label for="chamber">Апартаменты</label>
                 </fieldset>
                 <fieldset>
                     <div class="price">
-                        <h3>
+                        <h4>
                             Стоимость в сутки(р):
-                        </h3>
+                        </h4>
                         <p>
                             от 0
                         </p>
