@@ -24,14 +24,12 @@ color: #000000;
 .filter-string {
 font-size: 16px;
 line-height: 21px;
-color: #ffffff;
 font-weight: bold;
 }
 
 label {
 font-size: 14px;
 line-height: 21px;
-color: #ffffff;
 font-weight: normal;
 }
 
@@ -183,17 +181,18 @@ text-align: center;
 width: 1200px;
 min-height: 217px;
 padding-top: 25px;
-background-color: #345445;
 }
 .infrastructure {
 float: left;
 width: 240px;
 padding-left: 72px;
 min-height: 190px;
+border: none;
 }
 
 .accommodation {
 float: left;
 width: 287px;
 min-height: 190px;
+border: none;
 }
