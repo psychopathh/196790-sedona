@@ -186,13 +186,21 @@ padding-top: 25px;
 float: left;
 width: 240px;
 padding-left: 72px;
-min-height: 190px;
+min-height: 193px;
 border: none;
 }
 
 .accommodation {
 float: left;
 width: 287px;
-min-height: 190px;
+min-height: 193px;
 border: none;
+}
+
+.price {
+float: left;
+width: 328px;
+min-height: 193px;
+margin-left: 200px;
+margin-right: 10px;
 }
