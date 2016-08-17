@@ -130,14 +130,14 @@ min-height: 256px;
 
 .fact {
 float: right;
-width: 265px;
+width: 320px;
 min-height: 156px;
 text-align: center;
 line-height: 21px;
 background-color: #81b3d2;
 color: #ffffff;
-padding-left: 67.5px;
-padding-right: 67.5px;
+padding-left: 40px;
+padding-right: 40px;
 padding-bottom: 50px;
 padding-top: 50px;
 }
