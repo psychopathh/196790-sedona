@@ -42,18 +42,18 @@
             </p>
         </div>
         <div class="facts clearfix">
-            <h3>
+            <h2 class="item-title">
                  Настоящий городок
-            </h3>
+            </h2>
             <p>
                 - №1 -
             </p>
             <p>
                 Седона - не аттракцион для туристов, там течет своя жизнь
             </p>
-        </div>
-        <div class="facts-image">
-            <img src="img/foto.jpg" width="800" height="255" alt="фотография кафе">
+                <div class="facts-image">
+                    <img src="img/foto.jpg" width="800" height="255" alt="фотография кафе">
+                </div>
         </div>
         <div class="features clearfix">
             <div class="features-items">
@@ -81,20 +81,22 @@
                 </p>
             </div>
         </div>
-        <div class="image-canyon">
-             <img src="img/canyon.jpg" width="800" height="255" alt="фотография каньона">
-        </div>
-        <div class="fact">
-            <h3>
-                Там есть мост дьявола
-            </h3>
-            <p>
-                - №2 -
-            </p>
-            <p>
-                Да, по нему можно пройти! Если конечно вы осмелитесь
-            </p>
-        </div>
+        <div class="canyon clearfix">
+            <div class="image-canyon">
+                 <img src="img/canyon.jpg" width="800" height="255" alt="фотография каньона">
+            </div>
+            <div class="fact">
+                <h3>
+                    Там есть мост дьявола
+                </h3>
+                <p>
+                    - №2 -
+                </p>
+                <p>
+                    Да, по нему можно пройти! Если конечно вы осмелитесь
+                </p>
+            </div>
+       </div>
         <div class="facts-list clearfix">
             <div class="list-facts">
                 <h3>
@@ -130,39 +132,41 @@
                 </p>
             </div>
         </div>
-        <div class="question clearfix">
-            <h3>
-                Заинтересовались?
-            </h3>
-            <p>
-                Укажите предполагаемые даты поезки,
-            </p>
-            <p>
-                и мы покажем вам лучшие предложения гостиниц в седоне
-            </p>
-        </div>
-        <div class="registration clearfix">
-            <form class="main-form">
+        <div class="registration-map">
+            <div class="question clearfix">
                 <h3>
-                    Поиск гостиницы в седоне
+                    Заинтересовались?
                 </h3>
-                    <label for="entry">Дата заезда:</label>
-                    <input class="left-button" type="button">
-                    <input type="date" id="entry" value="24 Апреля 2016"> 
-                    <input class="right-button" type="button">
-                    <label for="exit">Дата выезда:</label>
-                    <input class="left-button" type="button">
-                    <input type="date" id="exit" value="4 июля 2016">
-                    <input class="right-button" type="button">
-                    <label for="grown">Взрослые:</label>
-                    <input type="number" id="grown">
-                    <label for="children">Дети:</label>
-                    <input type="number" id="children">                   
-                        <a href="#">Найти</a>
-            </form>
-        </div>
-        <div class="map">
-            <img src="http://placehold.it/1200x475" alt="карта">
+                <p>
+                    Укажите предполагаемые даты поезки,
+                </p>
+                <p>
+                    и мы покажем вам лучшие предложения гостиниц в седоне
+                </p>
+            </div>
+            <div class="registration clearfix">
+                <form class="main-form">
+                    <h3>
+                        Поиск гостиницы в седоне
+                    </h3>
+                        <label for="entry">Дата заезда:</label>
+                        <input type="date" id="entry" value="24 Апреля 2016">
+                        <label for="exit">Дата выезда:</label>
+                        <input type="date" id="exit" value="4 июля 2016">
+                        <label for="grown">Взрослые:</label>
+                        <input class="left-button" type="button">
+                        <input type="number" id="grown">
+                        <input class="right-button" type="button">
+                        <label for="children">Дети:</label>
+                        <input class="left-button" type="button">
+                        <input type="number" id="children">
+                        <input class="right-button" type="button">
+                            <a href="#">Найти</a>
+                </form>
+            </div>
+            <div class="map">
+                <img src="http://placehold.it/1200x475" alt="карта">
+            </div>
         </div>
         <footer class="main-footer">
             <div class="visit">
