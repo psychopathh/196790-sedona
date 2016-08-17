@@ -21,6 +21,12 @@ font-weight: bold;
 color: #000000;
 }
 
+p {
+font-size: 14px;
+line-height: 21px;
+color: #333333;
+}
+
 .filter-string {
 font-size: 16px;
 line-height: 21px;
@@ -69,22 +75,14 @@ width: 550px;
 }
 
 .facts {
-box-sizing: border-box;
-float:left;
-width: 400px;
-text-align: center;
-margin-bottom: 45px;
-min-height: 255px;
-background-color: aqua;
-padding-left: 80px;
-padding-right: 80px;
+min-height: 256px;
 }
 
-.facts-image {
-float: left;
-width: 800px;
-min-height: 255px;
-margin-bottom: 45px;
+.facts-text {
+float:left;
+width: 310px;
+padding: 45px;
+text-align: center;
 }
 
 .features {
@@ -103,7 +101,7 @@ background-color: bisque;
 float: left;
 width: 800px;
 min-height: 255px;
-margin-bottom: 27px;
+margin-bottom: 35px;
 }
 
 .fact {
