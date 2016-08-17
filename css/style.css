@@ -109,7 +109,7 @@ font-weight: bold;
 .image-canyon {
 float: left;
 width: 800px;
-min-height: 255px;
+min-height: 256px;
 margin-bottom: 35px;
 }
 
@@ -117,11 +117,15 @@ margin-bottom: 35px;
 float: right;
 margin-bottom: 35px;
 width: 265px;
-min-height: 150px;
+min-height: 156px;
 text-align: center;
+line-height: 21px;
 background-color: #81b3d2;
 color: #ffffff;
-padding: 50px 67.5px;
+padding-left: 67.5px;
+padding-right: 67.5px;
+padding-bottom: 50px;
+padding-top: 50px;
 }
 
 .fact-title {
