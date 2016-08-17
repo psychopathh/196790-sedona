@@ -5,6 +5,7 @@ color: #333333;
 font-weight: normal;
 font-family: 'PT Sans', "Arial", sans-serif;
 background-color: #f2f2f2;
+text-transform: uppercase;
 }
 
 h2 {
@@ -72,18 +73,32 @@ text-align: center;
 width: 550px;
 }
 
+.slogan-title {
+font-size: 21px;
+line-height: 26px;
+font-weight: bold;
+}
+
 .facts {
 min-height: 256px;
 }
 
 .facts-text {
+font-size: 14px;
+line-height: 21px;
 float:left;
-width: 310px;
-padding: 45px;
+width: 290px;
+padding: 45px 55px;
 text-align: center;
 background-color: #81b3d2;
 min-height: 166px;
 color: #ffffff;
+}
+
+.facts-image {
+float: left;
+width: 800px;
+min-height: 256px;
 }
 
 .features {
@@ -92,11 +107,12 @@ margin-bottom: 77px;
 
 .features-items {
 float: left;
-width: 250px;
+width: 300px;
 min-height: 210px;
 text-align: center;
-padding-left: 75px;
-padding-right: 75px;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 55px;
 }
 
 .features-title {
