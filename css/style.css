@@ -22,7 +22,7 @@ color: #000000;
 }
 
 .item-title {
-color: #ffffff;  
+color: #ffffff;
 }
 
 .filter-string {
@@ -92,10 +92,18 @@ margin-bottom: 77px;
 
 .features-items {
 float: left;
-width: 400px;
+width: 250px;
 min-height: 210px;
 text-align: center;
-background-color: bisque;
+padding-left: 75px;
+padding-right: 75px;
+}
+
+.features-title {
+font-size: 21px;
+line-height: 21px;
+color: #000000;
+font-weight: bold;
 }
 
 .image-canyon {
@@ -108,9 +116,18 @@ margin-bottom: 35px;
 .fact {
 float: right;
 margin-bottom: 35px;
-width: 400px;
-min-height: 255px;
+width: 265px;
+min-height: 150px;
 text-align: center;
+background-color: #81b3d2;
+color: #ffffff;
+padding: 50px 67.5px;
+}
+
+.fact-title {
+font-size: 21px;
+line-height: 21px;
+color: #ffffff;
 }
 
 .facts-list {
