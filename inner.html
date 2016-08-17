@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
         <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic' rel='stylesheet' type='text/css'>
-        <link href="css/style.css" rel="stylesheet">
         <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
 <body>
     <div class="global-wrapper">
         <header class="main-header clearfix">
-            <nav class="main-menu clearfix">
+            <nav class="main-menu">
                 <ul>
                     <li>
                         <a href="inner.html">Информация</a>
@@ -64,12 +64,12 @@
             </form>
         </div>
         <div class="sorting">
-            <h2>
+            <span class="found">
                 Найдено: 3
-            </h2>
-            <p>
+            </span>
+            <span class="sorting">
                 Сортировка:
-            </p>
+            </span>
             <a class="sorting-list" href="#">По цене</a>
             <a class="sorting-list" href="#">По типу</a>
             <a class="sorting-list" href="#">По рейтингу</a>
@@ -81,26 +81,32 @@
             </p>
         </div>
         <div class="item-habitation">
-            <a href="#">
-            <img src="img/amararesort.jpg" width="137" height="90" alt="фотография гостиницы">
-            </a>
+            <div class="hotel-image">
+                <img src="img/amararesort.jpg" width="137" height="90" alt="фотография гостиницы">
+            </div>
             <h2>
                 Amara resort & spa
             </h2>
-            <p class="property-type">
-                Гостиница
-            </p>
-            <p class="price-from">
-                От 3500 р.
-            </p>
-            <a class="more" href="#">Подробнее</a>
-            <a class="reservations" href="#">Забронировать</a>
-            <p class="stars">
-                ★★★★
-            </p>
-            <p class="rating">
-               Рейтинг: 8,5
-            </p>
+            <div class="hotel-info">
+                <p class="property-type">
+                    Гостиница
+                </p>
+                <p class="price-from">
+                    От 3500 р.
+            </div>
+            <div class="knob-more">
+                </p>
+                <a class="more" href="#">Подробнее</a>
+                <a class="reservations" href="#">Забронировать</a>
+            </div>
+            <div class="evaluation">
+                <p class="stars">
+                    ★★★★
+                </p>
+                <p class="rating">
+                   Рейтинг: 8,5
+                </p>
+            </div>
         </div>
         <div class="item-habitation">
             <a href="#">
