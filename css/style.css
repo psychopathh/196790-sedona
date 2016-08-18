@@ -307,9 +307,37 @@ margin-right: 25px;
 }
 
 .hotel-title {
+float: left;
 min-height: 20px;
 min-width: 220px;
+margin-top: 0px;
+margin-bottom: 10px;
 }
 
 .property-type {
+float:left;
+width: 83px;
+padding-right: 28px;
+line-height: 21px;
+margin-bottom: 15px;
+}
+
+.knob-more {
+float:left;
+}
+
+.price-from {
+float:left;
+line-height: 21px;
+margin-bottom: 15px;
+}
+
+.evaluation {
+float:right;
+margin-right: 72px;
+}
+
+.hotel-all {
+float:left;
+width:270px;
 }
