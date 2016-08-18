@@ -259,3 +259,30 @@ display: block;
 .accommodation label+input {
 display: block;
 }
+
+.found {
+font-size: 21px;
+line-height: 26px;
+font-weight: bold;
+padding-left: 72px;
+}
+
+.sorting {
+min-height: 87px;
+width: 1200px;
+}
+
+.sorting-span {
+padding-left: 35px;
+font-size: 12px;
+line-height: 18px;
+color: #000000;
+}
+
+.sorting-list {
+padding-left: 20px;
+}
+
+.sorting-list:nth-child(2) {
+padding-left: 60px;
+}
