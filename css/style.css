@@ -149,6 +149,7 @@ margin-bottom: 77px;
 }
 
 .features-items {
+position: relative;
 float: left;
 width: 300px;
 min-height: 210px;
@@ -156,6 +157,17 @@ text-align: center;
 padding-left: 50px;
 padding-right: 50px;
 padding-top: 55px;
+margin-bottom: 0px;
+}
+
+.features-items::before {
+display: block;
+content: "";
+position: absolute;
+background: url("../img/spritesheet.png") no-repeat;
+width: 64px;
+height: 76px;
+background-position: -5px -5px;
 }
 
 .features-title {
@@ -218,9 +230,11 @@ font-weight: bold;
 min-height: 200px;
 width: 1200px;
 text-align: center;
+background-color: #333333;
 }
 
 .registration {
+position: relative;
 margin: 0 auto;
 min-height: 481px;
 width: 575px;
@@ -235,9 +249,32 @@ color: #ffffff;
 font-weight: normal;
 }
 
-.map {
+.main-form h3 a{
+text-decoration: none;
+color: #ffffff;
+font-size: 21px;
+line-height: 26px;
+font-weight: bold;
+position: relative;
+}
+
+.main-form .sub-menu {
+display:none;
+}
+
+.main-form::hover a .sub-menu {
+display: block;
+}
+
+.registration::before {
+display: block;
+position: absolute;
+content: "";
 width: 1200px;
-min-height: 475px;
+height: 472px;
+background: url(../img/map.jpg) no-repeat;
+left: -312px;
+top: 100px;
 }
 
 .main-footer {
@@ -383,4 +420,46 @@ margin-right: 72px;
 .hotel-all {
 float:left;
 width:270px;
+}
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-box {
+    width: 64px;
+    height: 76px;
+    background-position: -5px -5px;
+}
+
+.sprite-face {
+    width: 10px;
+    height: 19px;
+    background-position: -79px -5px;
+}
+
+.sprite-food {
+    width: 74px;
+    height: 70px;
+    background-position: -99px -5px;
+}
+
+.sprite-house {
+    width: 75px;
+    height: 72px;
+    background-position: -79px -85px;
+}
+
+.sprite-twi {
+    width: 17px;
+    height: 15px;
+    background-position: -183px -5px;
+}
+
+.sprite-you {
+    width: 20px;
+    height: 16px;
+    background-position: -183px -30px;
 }
