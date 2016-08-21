@@ -70,7 +70,7 @@ font-size: 0px;
 
 .main-header li {
 display: inline-block;
-vertical-align: top;
+vertical-align: middle;
 font-size: 14px;
 line-height: 26px;
 font-weight: bold;
@@ -91,10 +91,22 @@ min-height: 70px;
 .main-picture {
 position: relative;
 width: 1200px;
+height: 500px;
 margin-bottom: 45px;
 bottom: 30px;
+background: url("../img/background-photo.jpg") no-repeat;
 z-index: 9;
 }
+
+.main-picture::before {
+position: absolute;
+content: "";
+background: url("../img/maain.png") no-repeat;
+width: 1200px;
+height: 450px;
+top: 76px;
+}
+
 
 .slogan {
 margin-bottom: 50px;
