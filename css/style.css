@@ -48,17 +48,16 @@ width: 1200px;
 margin-bottom: 10px;
 }
 
-.logo {
+.logo-wrapper {
 position: relative;
-z-index: 10;
+box-sizing: border-box;
 }
 
-.main-header a {
-text-decoration: none;
-color: #333333;
-display: block;
-padding-left: 72px;
-margin-right: 62px;
+.logo {
+position: absolute;
+top: -15px;
+left: 0;
+z-index: 2;
 }
 
 .main-header ul {
@@ -66,6 +65,8 @@ list-style: none;
 margin: 0;
 padding: 0;
 font-size: 0px;
+text-align: center;
+width: 100%;
 }
 
 .main-header li {
@@ -74,10 +75,17 @@ vertical-align: middle;
 font-size: 14px;
 line-height: 26px;
 font-weight: bold;
+width: 20%;
+}
+
+.main-header a {
+text-decoration: none;
+color: #333333;
+display: block;
+padding: 15px;
 }
 
 .main-menu {
-float: left;
 width: 1200px;
 min-height: 70px;
 }
@@ -95,7 +103,8 @@ height: 500px;
 margin-bottom: 45px;
 bottom: 30px;
 background: url("../img/background-photo.jpg") no-repeat;
-z-index: 9;
+background-position: 0 -55px;
+z-index: 1;
 }
 
 .main-picture::before {
@@ -149,7 +158,6 @@ margin-bottom: 77px;
 }
 
 .features-items {
-position: relative;
 float: left;
 width: 300px;
 min-height: 210px;
@@ -158,16 +166,6 @@ padding-left: 50px;
 padding-right: 50px;
 padding-top: 55px;
 margin-bottom: 0px;
-}
-
-.features-items::before {
-display: block;
-content: "";
-position: absolute;
-background: url("../img/spritesheet.png") no-repeat;
-width: 64px;
-height: 76px;
-background-position: -5px -5px;
 }
 
 .features-title {
@@ -227,10 +225,8 @@ font-weight: bold;
 }
 
 .question {
-min-height: 200px;
 width: 1200px;
 text-align: center;
-background-color: #333333;
 }
 
 .registration {
@@ -249,7 +245,7 @@ color: #ffffff;
 font-weight: normal;
 }
 
-.main-form h3 a{
+.main-form a{
 text-decoration: none;
 color: #ffffff;
 font-size: 21px;
@@ -258,21 +254,13 @@ font-weight: bold;
 position: relative;
 }
 
-.main-form .sub-menu {
-display:none;
-}
-
-.main-form::hover a .sub-menu {
-display: block;
-}
-
 .registration::before {
 display: block;
 position: absolute;
 content: "";
 width: 1200px;
 height: 472px;
-background: url(../img/map.jpg) no-repeat;
+/*background: url(../img/map.jpg) no-repeat;*/
 left: -312px;
 top: 100px;
 }
