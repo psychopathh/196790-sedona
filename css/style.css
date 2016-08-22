@@ -56,7 +56,7 @@ box-sizing: border-box;
 .logo {
 position: absolute;
 top: -15px;
-left: 0;
+left: 55px;
 z-index: 2;
 }
 
@@ -104,18 +104,28 @@ margin-bottom: 45px;
 bottom: 30px;
 background: url("../img/background-photo.jpg") no-repeat;
 background-position: 0 -55px;
+top:-25px;
 z-index: 1;
+}
+
+.main-picture::after {
+position: absolute;
+content: "";
+background: url("../img/mainwords.png") no-repeat;
+width: 1200px;
+height: 450px;
+top: 76px;
+left: 370px;
 }
 
 .main-picture::before {
 position: absolute;
 content: "";
-background: url("../img/maain.png") no-repeat;
+background: url("../img/shape.png") no-repeat;
 width: 1200px;
-height: 450px;
-top: 76px;
+height: 65px;
+top: 444px;
 }
-
 
 .slogan {
 margin-bottom: 50px;
