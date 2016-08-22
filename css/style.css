@@ -24,6 +24,7 @@ color: #000000;
 
 .item-title {
 color: #ffffff;
+margin: 0;
 }
 
 .filter-string {
@@ -100,10 +101,10 @@ min-height: 70px;
 .main-picture {
 position: relative;
 width: 1200px;
-height: 500px;
-margin-bottom: 45px;
+min-height: 510px;
+margin-bottom: 15px;
 bottom: 30px;
-background: url("../img/background-photo.jpg") no-repeat;
+background: url("../img/background-photo.jpg") no-repeat #81b3d2;
 background-position: 0 -55px;
 top:-25px;
 z-index: 1;
@@ -125,7 +126,7 @@ content: "";
 background: url("../img/shape.png") no-repeat;
 width: 1200px;
 height: 57px;
-top: 444px;
+top: 453px;
 }
 
 .slogan {
@@ -141,6 +142,7 @@ font-size: 21px;
 line-height: 26px;
 font-weight: bold;
 padding-bottom: 15px;
+margin: 0;
 }
 
 .facts {
@@ -163,7 +165,7 @@ color: #ffffff;
 float: left;
 width: 800px;
 height: 256px;
-background: url("../img/foto.jpg") no-repeat;
+background: url("../img/foto.jpg") no-repeat #ffffff;
 background-size: cover;
 background-position: 0 -75px;
 }
@@ -194,7 +196,7 @@ font-weight: bold;
 float: left;
 width: 800px;
 height: 256px;
-background: url("../img/canyon.jpg") no-repeat;
+background: url("../img/canyon.jpg") no-repeat #ffffff;
 background-size: cover;
 background-position: 0 -75px;
 }
@@ -219,6 +221,7 @@ font-size: 21px;
 line-height: 21px;
 color: #ffffff;
 font-weight: bold;
+margin: 0;
 }
 
 .facts-list {
@@ -241,6 +244,7 @@ font-size: 14px;
 font-size: 21px;
 line-height: 21px;
 font-weight: bold;
+margin: 0;
 }
 
 .question {
