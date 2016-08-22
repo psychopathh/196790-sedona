@@ -42,6 +42,7 @@ font-weight: normal;
 margin: 0 auto;
 background-color: #ffffff;
 width: 1200px;
+box-shadow: 0 0 7px 3px #dbdbdb;
 }
 
 .main-header {
