@@ -55,7 +55,7 @@ box-sizing: border-box;
 
 .logo {
 position: absolute;
-top: -15px;
+top: -13px;
 left: 50px;
 z-index: 2;
 }
@@ -163,8 +163,8 @@ color: #ffffff;
 position: absolute;
 width: 800px;
 height: 256px;
-background: url(../img/foto.jpg) no-repeat;
-background-position: -650px -150px;
+background: url("../img/foto.jpg") no-repeat;
+background-size: cover;
 left: 665px;
 }
 
