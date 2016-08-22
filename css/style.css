@@ -128,17 +128,18 @@ top: 444px;
 }
 
 .slogan {
-margin-bottom: 40px;
 margin: 0 auto;
 text-align: center;
 width: 550px;
 min-height: 140px;
+padding-bottom: 25px;
 }
 
 .slogan-title {
 font-size: 21px;
 line-height: 26px;
 font-weight: bold;
+padding-bottom: 15px;
 }
 
 .facts {
@@ -190,12 +191,15 @@ font-weight: bold;
 }
 
 .image-canyon {
+position: absolute;
 float: left;
 width: 800px;
 height: 256px;
+background: url("../img/canyon.jpg") no-repeat;
 }
 
 .fact {
+position: relative;
 float: right;
 width: 320px;
 min-height: 156px;
