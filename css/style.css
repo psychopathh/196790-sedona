@@ -159,9 +159,11 @@ color: #ffffff;
 }
 
 .facts-image {
+float: left;
 width: 800px;
 height: 256px;
 background: url("../img/foto.jpg") no-repeat;
+background-size: 800px 256px;
 }
 
 .features {
@@ -187,12 +189,11 @@ font-weight: bold;
 }
 
 .image-canyon {
-position: absolute;
 float: left;
 width: 800px;
 height: 256px;
 background: url("../img/canyon.jpg") no-repeat;
-background-size: contain;
+background-size: cover;
 }
 
 .fact {
