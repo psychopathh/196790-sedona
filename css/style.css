@@ -146,6 +146,7 @@ min-height: 256px;
 }
 
 .facts-text {
+position: relative;
 font-size: 14px;
 line-height: 21px;
 float:left;
@@ -158,9 +159,12 @@ color: #ffffff;
 }
 
 .facts-image {
-float: left;
+position: absolute;
 width: 800px;
-min-height: 256px;
+height: 256px;
+background: url(../img/foto.jpg) no-repeat;
+background-position: -650px -150px;
+left: 665px;
 }
 
 .features {
