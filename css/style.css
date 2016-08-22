@@ -147,7 +147,6 @@ min-height: 256px;
 }
 
 .facts-text {
-position: relative;
 font-size: 14px;
 line-height: 21px;
 float:left;
@@ -160,12 +159,9 @@ color: #ffffff;
 }
 
 .facts-image {
-position: absolute;
 width: 800px;
 height: 256px;
 background: url("../img/foto.jpg") no-repeat;
-background-size: cover;
-left: 665px;
 }
 
 .features {
@@ -196,6 +192,7 @@ float: left;
 width: 800px;
 height: 256px;
 background: url("../img/canyon.jpg") no-repeat;
+background-size: contain;
 }
 
 .fact {
