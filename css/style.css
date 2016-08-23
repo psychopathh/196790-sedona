@@ -246,19 +246,18 @@ max-width: 155px;
 }
 
 .facts-list {
-margin-bottom: 43px;
+margin-bottom: 15px;
 }
 
 .list-facts {
 float: left;
-width: 300px;
-min-height: 255px;
+width: 270px;
+min-height: 210px;
 text-align: center;
 background-color: #eeeeee;
-padding-left: 50px;
-padding-right: 50px;
-padding-top: 43px;
-font-size: 14px;
+padding-top: 42px;
+padding-left: 65px;
+padding-right: 65px;
 }
 
 .list-title {
@@ -267,6 +266,8 @@ line-height: 21px;
 font-weight: bold;
 margin: 0 auto;
 max-width: 120px;
+padding-bottom: 10px;
+padding-top: 5px;
 }
 
 .question {
