@@ -147,13 +147,8 @@ max-width: 120px;
 font-size: 21px;
 line-height: 21px;
 padding-bottom: 10px;
-padding-top: 5px;
+padding-top: 15px;
 }
-
-.facts-number {
-padding-bottom: 10px;
-}
-
 
 .facts {
 min-height: 256px;
@@ -167,7 +162,7 @@ width: 290px;
 padding: 42px 55px;
 text-align: center;
 background-color: #81b3d2;
-min-height: 166px;
+min-height: 172px;
 color: #ffffff;
 }
 
@@ -246,7 +241,7 @@ max-width: 155px;
 }
 
 .facts-list {
-margin-bottom: 15px;
+margin-bottom: 55px;
 }
 
 .list-facts {
@@ -273,20 +268,21 @@ padding-top: 5px;
 .question {
 width: 1200px;
 text-align: center;
+margin-bottom: 35px;
 }
 
 .registration {
 position: relative;
 margin: 0 auto;
 min-height: 481px;
-width: 575px;
+width: 565px;
 background-color: aqua;
 }
 
 .registration h3 {
 text-align: center;
 background-color: #766357;
-padding:35px 0;
+padding: 30px 0;
 color: #ffffff;
 font-weight: normal;
 }
