@@ -312,6 +312,14 @@ background-color: #ffffff;
 min-height: 120px;
 }
 
+.main-footer a {
+color: #ffffff;
+}
+
+.main-footer a:hover {
+text-decoration: none;
+}
+
 .visit {
 float: left;
 width: 400px;
@@ -319,11 +327,34 @@ height: 120px;
 text-align: center;
 }
 
+.social-btn {
+display: inline-block;
+width: 46px;
+height: 48px;
+margin: 0 6px;
+background: #81b3d2 url("../img/spritesheet.png") no-repeat center;
+font-size: 0;
+text-decoration: none;
+vertical-align: top;
+}
+
 .social-footer {
 float: left;
 width: 400px;
 height: 120px;
 text-align: center;
+}
+
+.social-btn-twitter{
+background-position: -183px -5px;
+}
+
+.social-btn-facebook{
+background-position: -79px -5px;
+}
+
+.social-btn-youtube{
+background-position: -183px -30px;
 }
 
 .footer-copyright {
@@ -453,7 +484,7 @@ width:270px;
 }
 
 .sprite {
-    background-image: url(spritesheet.png);
+    background-image: url("../img/spritesheet.png");
     background-repeat: no-repeat;
     display: block;
 }
