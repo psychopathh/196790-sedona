@@ -469,15 +469,28 @@ padding-top: 50px;
 }
 
 .container {
+position: relative;
+top: -25px;
 width: 1200px;
 min-height: 217px;
 padding-top: 25px;
+background: #000000 url("../img/background-inner.jpg") no-repeat;
+background-position: 0 -70px;
+color: #ffffff;
 }
 .infrastructure {
 float: left;
 width: 240px;
 padding-left: 72px;
 min-height: 193px;
+}
+
+legend {
+font-size: 16px;
+line-height: 21px;
+font-weight: bold;
+color: #ffffff;
+margin-bottom: 24px;
 }
 
 .accommodation {
