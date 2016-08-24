@@ -273,7 +273,7 @@ padding-top: 5px;
 .question {
 width: 1200px;
 text-align: center;
-margin-bottom: 35px;
+margin-bottom: 55px;
 }
 
 .registration {
@@ -286,9 +286,11 @@ width: 570px;
 .registration p {
 text-align: center;
 background-color: #766357;
-padding: 30px 0;
+padding-top: 30px;
+padding-bottom: 25px;
 color: #ffffff;
 font-weight: normal;
+margin: 0;
 }
 
 .registration a{
@@ -315,8 +317,8 @@ z-index: 1;
 .sub-menu {
 position: relative;
 margin: 0;
-padding: 55px 60px;
-width: 450px;
+padding: 55px;
+width: 460px;
 z-index: 2;
 background-color: #ffffff;
 margin-bottom: 75px;
@@ -437,15 +439,15 @@ padding-top: 35px;
 }
 
 .social-btn-twitter{
-background-position: -183px -5px;
+background-position: -25px -5px;
 }
 
 .social-btn-facebook{
-background-position: -79px -5px;
+background-position: -5px -5px;
 }
 
 .social-btn-youtube{
-background-position: -183px -30px;
+background-position: -25px -30px;
 }
 
 .footer-copyright {
@@ -453,10 +455,17 @@ float: left;
 width: 400px;
 height: 120px;
 text-align: center;
+padding: 0;
 }
 
 .footer-copyright p {
 display: inline-block;
+margin: 0;
+}
+
+.academy {
+display: block;
+padding-top: 50px;
 }
 
 .container {
@@ -580,43 +589,25 @@ width:270px;
 }
 
 .sprite {
-    background-image: url("../img/spritesheet.png");
+    background-image: url("spritesheet.png");
     background-repeat: no-repeat;
     display: block;
-}
-
-.sprite-box {
-    width: 64px;
-    height: 76px;
-    background-position: -5px -5px;
 }
 
 .sprite-face {
     width: 10px;
     height: 19px;
-    background-position: -79px -5px;
-}
-
-.sprite-food {
-    width: 74px;
-    height: 70px;
-    background-position: -99px -5px;
-}
-
-.sprite-house {
-    width: 75px;
-    height: 72px;
-    background-position: -79px -85px;
+    background-position: -5px -5px;
 }
 
 .sprite-twi {
     width: 17px;
     height: 15px;
-    background-position: -183px -5px;
+    background-position: -25px -5px;
 }
 
 .sprite-you {
     width: 20px;
     height: 16px;
-    background-position: -183px -30px;
+    background-position: -25px -30px;
 }
