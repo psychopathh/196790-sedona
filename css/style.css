@@ -280,8 +280,7 @@ margin-bottom: 35px;
 position: relative;
 margin: 0 auto;
 min-height: 481px;
-width: 565px;
-background-color: aqua;
+width: 570px;
 }
 
 .registration p {
@@ -306,19 +305,105 @@ display: block;
 position: absolute;
 content: "";
 width: 1200px;
-height: 472px;
-/*background: url(../img/map.jpg) no-repeat;*/
+height: 591px;
+background: url(../img/map.jpg) no-repeat;
 left: -312px;
-top: 100px;
+top: 80px;
+z-index: 1;
+}
+
+.sub-menu {
+position: relative;
+margin: 0;
+padding: 55px 60px;
+width: 450px;
+z-index: 2;
+background-color: #ffffff;
+margin-bottom: 75px;
+}
+
+.sub-menu label {
+font-size: 14px;
+line-height: 26px;
+font-weight: bold;
+}
+
+.arrival-date {
+font-size: 14px;
+line-height: 26px;
+font-weight: bold;
+margin-bottom: 28px;
+}
+
+.arrival-date label {
+margin-right: 19px;
+}
+
+.arrival-date input{
+width: 345px;
+height: 40px;
+}
+.departure {
+font-size: 14px;
+line-height: 26px;
+font-weight: bold;
+margin-bottom: 28px;
+}
+
+.departure label {
+margin-right: 16px;
+}
+
+.departure input {
+width: 345px;
+height: 40px;
+}
+
+.adult label {
+margin-right: 38px;
+}
+
+.adult input {
+width: 50px;
+height: 37px;
+}
+
+.child label {
+margin-right: 25px;
+}
+
+.child input {
+width: 50px;
+height: 37px;
+}
+
+.find {
+display: block;
+width: 460px;
+height: 43px;
+background-color: #81b3d2;
+text-align: center;
+margin: 0;
+padding-top: 15px;
 }
 
 .main-footer {
+position: relative;
 background-color: #ffffff;
 min-height: 120px;
+z-index: 3;
 }
 
-.main-footer a {
-color: #ffffff;
+.visit {
+padding-top: 47px;
+}
+
+.visit a {
+text-decoration: none;
+line-height: 26px;
+font-size: 21px;
+font-weight: bold;
+color: #000000;
 }
 
 .main-footer a:hover {
@@ -348,6 +433,7 @@ float: left;
 width: 400px;
 height: 120px;
 text-align: center;
+padding-top: 35px;
 }
 
 .social-btn-twitter{
