@@ -308,8 +308,8 @@ position: absolute;
 content: "";
 width: 1200px;
 height: 591px;
-background: url(../img/map.jpg) no-repeat;
-left: -312px;
+background: url("../img/map.jpg") no-repeat;
+left: -315px;
 top: 80px;
 z-index: 1;
 }
@@ -461,11 +461,13 @@ padding: 0;
 .footer-copyright p {
 display: inline-block;
 margin: 0;
+vertical-align: middle;
 }
 
 .academy {
-display: block;
-padding-top: 50px;
+display: inline-block;
+padding-top: 20px;
+vertical-align: middle;
 }
 
 .container {
@@ -530,6 +532,7 @@ padding-left: 72px;
 padding-top: 20px;
 min-height: 65px;
 width: 1200px;
+border-bottom: 2px solid #e5e5e5;
 }
 
 .sorting-span {
@@ -544,12 +547,12 @@ margin-right: 30px;
 margin-right: 27px;
 }
 
-.top {
+.bottom {
 float: right;
 padding-right: 72px;
 }
 
-.bottom {
+.top {
 float: right;
 }
 
@@ -557,6 +560,7 @@ float: right;
 min-height: 150px;
 width: 1200px;
 padding:20px 0;
+border-bottom: 2px solid #e5e5e5;
 }
 
 .hotel-image {
