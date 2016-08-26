@@ -38,7 +38,7 @@ font-weight: normal;
 margin: 0 auto;
 background-color: #ffffff;
 width: 1200px;
-box-shadow: 0 0 7px 3px #dbdbdb;
+box-shadow: 0 0 10px #dbdbdb;
 }
 
 .main-header {
@@ -53,9 +53,10 @@ box-sizing: border-box;
 .logo {
 display: inline-block;
 position: absolute;
-top: 0px;
-left: 450px;
+top: -15px;
+left: 850px;
 z-index: 2;
+padding: 0;
 }
 
 .main-header ul {
@@ -81,6 +82,10 @@ text-decoration: none;
 color: #333333;
 display: block;
 padding: 15px;
+}
+
+.main-header a:nth-child(2) {
+margin-right: 20%;
 }
 
 .main-menu {
@@ -334,29 +339,10 @@ font-weight: bold;
 font-size: 14px;
 line-height: 26px;
 font-weight: bold;
-margin-bottom: 28px;
-}
-
-.arrival-date label {
-margin-right: 19px;
+margin-bottom: 0 0 30px;
 }
 
 .arrival-date input{
-width: 345px;
-height: 40px;
-}
-.departure {
-font-size: 14px;
-line-height: 26px;
-font-weight: bold;
-margin-bottom: 28px;
-}
-
-.departure label {
-margin-right: 16px;
-}
-
-.departure input {
 width: 345px;
 height: 40px;
 }
@@ -366,15 +352,6 @@ margin-right: 38px;
 }
 
 .adult input {
-width: 50px;
-height: 37px;
-}
-
-.child label {
-margin-right: 25px;
-}
-
-.child input {
 width: 50px;
 height: 37px;
 }
@@ -466,15 +443,15 @@ vertical-align: middle;
 
 .academy {
 display: inline-block;
-padding-top: 20px;
 vertical-align: middle;
 }
 
 .container {
+box-sizing: border-box;
 position: relative;
 top: -25px;
 width: 1200px;
-min-height: 217px;
+min-height: 192px;
 padding-top: 25px;
 background: #000000 url("../img/background-inner.jpg") no-repeat;
 background-position: 0 -70px;
@@ -529,7 +506,6 @@ padding-left: 72px;
 }
 
 .sorting {
-padding-top: 20px;
 min-height: 65px;
 width: 1200px;
 border-bottom: 2px solid #e5e5e5;
@@ -544,6 +520,8 @@ margin-right: 30px;
 }
 
 .sorting-list {
+font-size: 12px;
+line-height: 18px;
 margin-right: 27px;
 }
 

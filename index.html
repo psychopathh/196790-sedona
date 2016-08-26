@@ -13,21 +13,21 @@
             <nav class="main-menu">
                 <ul>
                     <li>
-                        <a href="inner.html">Информация</a>
+                        <a href="index.html">Информация</a>
                     </li>
                     <li>
-                        <a href="#">Фото и видео</a>
+                        <a href="#photo" id="photo">Фото и видео</a>
                     </li>
                     <li>
-                        <a href="#">Карта штата</a>
+                        <a href="#map" id="map" >Карта штата</a>
                     </li>
                     <li>
-                        <a href="#">Гостиницы</a>
+                        <a href="inner.html">Гостиницы</a>
                     </li>
                 </ul>
             </nav>
             <div class="logo">
-                <a class="logo-wrapper" href="index.html"><img class="logo" src="img/logo.png" width="136" height="70" alt="логотип"></a>
+                <a class="logo-wrapper" href="index.html"><img class="logo-picture" src="img/logo.png" width="136" height="70" alt="логотип"></a>
             </div>
         </header>
         <div class="main-picture clearfix">
@@ -146,30 +146,30 @@
                 </p>
             </div>
             <div class="registration clearfix">
+                <p>
+                    <a href="#">Поиск гостиницы в седоне</a>
+                </p>
                 <form class="main-form">
-                    <p>
-                        <a href="#">Поиск гостиницы в седоне</a>
-                    </p>
                         <div class="sub-menu">
                             <div class="arrival-date">
                                 <label for="entry">Дата заезда:</label>
-                                <input type="date" id="entry" value="24 Апреля 2016">
+                                <input type="date" id="entry" value="2016-04-24">
                             </div>
-                            <div class="departure">
+                            <div class="arrival-date">
                                 <label for="exit">Дата выезда:</label>
-                                <input type="date" id="exit" value="4 июля 2016">
+                                <input type="date" id="exit" value="2016-04-06">
                             </div>
                             <div class="adult">
                                 <label for="grown">Взрослые:</label>
-                                <input class="left-button" type="button">
+                                <button class="left-button">
                                 <input type="number" id="grown">
-                                <input class="right-button" type="button">
+                                <button class="right-button">
                             </div>
-                            <div class="child">
+                            <div class="adult">
                                 <label for="children">Дети:</label>
-                                <input class="left-button" type="button">
+                                <button class="left-button">
                                 <input type="number" id="children">
-                                <input class="right-button" type="button">
+                                <button class="right-button">
                             </div>
                                     <a class="find" href="#">Найти</a>
                         </div>
