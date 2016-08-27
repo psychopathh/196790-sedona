@@ -22,12 +22,6 @@ font-weight: bold;
 color: #000000;
 }
 
-.filter-string {
-font-size: 16px;
-line-height: 21px;
-font-weight: bold;
-}
-
 label {
 font-size: 14px;
 line-height: 21px;
@@ -247,7 +241,7 @@ max-width: 155px;
 }
 
 .facts-list {
-margin-bottom: 55px;
+margin-bottom: 50px;
 }
 
 .list-facts {
@@ -431,15 +425,15 @@ padding-top: 35px;
 }
 
 .social-btn-twitter{
-background-position: -70px -20px;
+background-position: -55px -3px;
 }
 
 .social-btn-facebook{
-background-position: -20px -20px;
+background-position: -2px -5px;
 }
 
 .social-btn-youtube{
-background-position: -70px -75px;
+background-position: -57px -58px;
 }
 
 .footer-copyright {
@@ -486,6 +480,112 @@ line-height: 21px;
 font-weight: bold;
 color: #ffffff;
 margin-bottom: 24px;
+}
+
+.filter-string {
+font-size: 16px;
+line-height: 21px;
+font-weight: bold;
+margin-bottom: 9px;
+}
+
+.price-controls {
+position: relative;
+height: 36px;
+border: 2px solid #ffffff;
+border-radius: 2px;
+margin-bottom: 20px;
+font-size: 0;
+}
+
+.price-controls:after {
+position: absolute;
+content: "";
+width: 2px;
+height: 22px;
+background: #ffffff;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.range-controls {
+position: relative;
+margin-bottom: 32px;
+}
+
+.range-controls .scale {
+height: 2px;
+background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+height: 2px;
+background: #ffffff;
+width: 80%;
+}
+
+.range-toggle {
+position: absolute;
+top: -9px;
+width: 4px;
+height: 4px;
+background: #ababab;
+border: 8px solid #ffffff;
+border-radius: 50%;
+box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+cursor: pointer;
+}
+
+.range-toggle-min {
+left: 0;
+}
+
+.range-toggle-max {
+left: 80%;
+}
+
+.range-toggle:hover {
+background: #1c4f80;
+}
+
+.btn-transparent {
+display: block;
+margin: 0 auto;
+padding: 6px 36px;
+font-size: 14px;
+line-height: 20px;
+color: #ffffff;
+text-transform: uppercase;
+background: transparent;
+border: 2px solid #ffffff;
+border-radius: 2px;
+outline: none;
+cursor: pointer;
+}
+
+.price-controls label {
+display: inline-block;
+cursor: pointer;
+line-height: 38px;
+font-size: 14px;
+vertical-align: top;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+width: 90px;
+padding-left: 65px;
+}
+
+.price-controls input {
+color: inherit;
+font: inherit;
+width: 50px;
+margin: 0;
+background: none;
+border: none;
+outline: none;
 }
 
 .accommodation {
