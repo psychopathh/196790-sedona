@@ -312,11 +312,17 @@ display: block;
 position: absolute;
 content: "";
 width: 1200px;
-height: 591px;
+height: 472px;
 background: url("../img/map.jpg") no-repeat;
 left: -315px;
 top: 80px;
 z-index: 1;
+}
+
+.icon {
+width: 20px;
+height: 20px;
+background: url("../img/calendar.png") no-repeat 100%;
 }
 
 .sub-menu {
@@ -343,12 +349,21 @@ margin-bottom: 0 0 30px;
 }
 
 .arrival-date input{
-width: 345px;
+width: 320px;
 height: 40px;
+background-color: #f2f2f2;
+border: 0px;
+margin-bottom: 29px;
+padding-left: 15px;
+padding-right: 10px;
 }
 
 .adult label {
 margin-right: 38px;
+}
+
+.adult label:nth-child(3) {
+margin-right: 20px;
 }
 
 .adult input {
@@ -416,15 +431,15 @@ padding-top: 35px;
 }
 
 .social-btn-twitter{
-background-position: -25px -5px;
+background-position: -70px -20px;
 }
 
 .social-btn-facebook{
-background-position: -5px -5px;
+background-position: -20px -20px;
 }
 
 .social-btn-youtube{
-background-position: -25px -30px;
+background-position: -70px -75px;
 }
 
 .footer-copyright {
@@ -433,6 +448,7 @@ width: 400px;
 height: 120px;
 text-align: center;
 padding: 0;
+margin-top: 40px;
 }
 
 .footer-copyright p {
@@ -634,17 +650,17 @@ width:270px;
 .sprite-face {
     width: 10px;
     height: 19px;
-    background-position: -5px -5px;
+    background-position: -20px -20px;
 }
 
 .sprite-twi {
     width: 17px;
     height: 15px;
-    background-position: -25px -5px;
+    background-position: -70px -20px;
 }
 
 .sprite-you {
     width: 20px;
     height: 16px;
-    background-position: -25px -30px;
+    background-position: -70px -75px;
 }
