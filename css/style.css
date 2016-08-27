@@ -42,15 +42,18 @@ margin-bottom: 10px;
 .logo-wrapper {
 position: relative;
 box-sizing: border-box;
+padding: 0;
 }
 
 .logo {
-display: inline-block;
 position: absolute;
+right: 0;
+left: -50px;
 top: -15px;
-left: 850px;
-z-index: 2;
-padding: 0;
+z-index: 2  ;
+margin: 0 auto;
+width: 102px;
+height: 83px;
 }
 
 .main-header ul {
@@ -68,7 +71,7 @@ vertical-align: middle;
 font-size: 14px;
 line-height: 26px;
 font-weight: bold;
-width: 25%;
+width: 20%;
 }
 
 .main-header a {
