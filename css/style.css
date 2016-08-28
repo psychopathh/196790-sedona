@@ -96,6 +96,26 @@ min-height: 70px;
   clear: both;
 }
 
+.main-menu a:hover {
+color: #a3c7de;
+}
+
+.main-menu a:visited {
+color: #b7b7b7;
+}
+
+.main-menu a:active {
+color: #9b8d84;
+}
+
+.main-menu a:active:hover {
+color: #604e43;
+}
+
+.main-menu a:active:visited {
+color: #ded9d6;
+}
+
 .main-picture {
 position: relative;
 width: 1200px;
@@ -473,6 +493,15 @@ background-position: -2px -5px;
 background-position: -57px -58px;
 }
 
+.social-btn:hover {
+background-color: #669ec0;
+}
+
+.social-btn:visited {
+background-color: #5496bd;
+color: #88b6d1;
+}
+
 .footer-copyright {
 float: left;
 width: 400px;
@@ -491,6 +520,10 @@ vertical-align: middle;
 .academy {
 display: inline-block;
 vertical-align: middle;
+}
+
+.academy a:hover {
+background-color: #c2dae9;
 }
 
 .container {
