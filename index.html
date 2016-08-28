@@ -163,18 +163,25 @@
                             </div>
                             <div class="adult">
                                 <label for="grown">Взрослые:</label>
-                                <button class="left-button">
-                                <input class="adult-grown" type="number" id="grown">
-                                <button class="right-button">
+                                <div class="adult-controls">
+                                    <button class="left-button" form="grown">—</button>
+                                    <input class="adult-grown" type="number" id="grown" value="2">
+                                    <button class="right-button" form="grown">+</button>
+                                </div>
                             </div>
                             <div class="adult">
                                 <label for="children">Дети:</label>
-                                <button class="left-button">
-                                <input type="number" id="children">
-                                <button class="right-button">
+                                <div class="adult-controls">
+                                    <button class="left-button" form="children">—</button>
+                                    <input class="adult-grown" type="number" id="children" value="0">
+                                    <button class="right-button" form="children">+</button>
+                                </div>
                             </div>
                                 <a class="find" href="#">Найти</a>
-                        </div>
+                      </div>
+            <div class="map">
+                <img src="img/map.jpg" alt="карта" width="1200px" height="472px">
+            </div>
                 </form>
             </div>
         </div>
