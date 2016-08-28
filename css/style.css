@@ -531,7 +531,7 @@ box-sizing: border-box;
 position: relative;
 top: -25px;
 width: 1200px;
-min-height: 192px;
+min-height: 220px;
 padding-top: 25px;
 background: #000000 url("../img/background-inner.jpg") no-repeat;
 background-position: 0 -70px;
@@ -718,6 +718,19 @@ padding-right: 72px;
 
 .top {
 float: right;
+}
+
+.sorting-list:nth-child(3) {
+text-decoration: none;
+font-size: 12px;
+line-height: 18px;
+}
+
+.sorting-list:nth-child(3):active {
+text-decoration: none;
+font-size: 12px;
+line-height: 18px;
+color: #81b3d2;
 }
 
 .item-habitation {
