@@ -100,20 +100,20 @@ min-height: 70px;
 color: #a3c7de;
 }
 
-.main-menu a:visited {
+.main-menu a:active {
 color: #b7b7b7;
 }
 
-.main-menu a:active {
-color: #9b8d84;
+.active {
+color: #7f6d62;
 }
 
-.main-menu a:active:hover {
+.active:hover {
 color: #604e43;
 }
 
-.main-menu a:active:visited {
-color: #ded9d6;
+.active:active {
+color: #d6d0cc;
 }
 
 .main-picture {
@@ -437,6 +437,15 @@ margin: 0;
 padding-top: 15px;
 }
 
+.find:hover {
+background-color: #669ec0;
+}
+
+.find:active {
+background-color: #5496bd;
+color: #88b6d1;
+}
+
 .main-footer {
 position: relative;
 background-color: #ffffff;
@@ -503,7 +512,7 @@ background-position: -57px -58px;
 background-color: #669ec0;
 }
 
-.social-btn:visited {
+.social-btn:active {
 background-color: #5496bd;
 color: #88b6d1;
 }
@@ -640,6 +649,11 @@ outline: none;
 cursor: pointer;
 }
 
+.btn-transparent:hover{
+background-color: #ffffff;
+color: #000000;
+}
+
 .price-controls label {
 display: inline-block;
 cursor: pointer;
@@ -720,10 +734,16 @@ margin-right: 27px;
 .bottom {
 float: right;
 padding-right: 72px;
+text-decoration: none;
+font-size: 19px;
+line-height: 21px;
 }
 
 .top {
 float: right;
+text-decoration: none;
+font-size: 19px;
+line-height: 21px;
 }
 
 .stars {
@@ -732,10 +752,31 @@ line-height: 21px;
 color: #81b3d2;
 }
 
+.sorting-list:nth-child(4),
+.sorting-list:nth-child(5) {
+text-decoration: none;
+font-size: 12px;
+line-height: 18px;
+border-bottom: 1px dotted #81b3d2;
+color: #b1b1b1;
+}
+
+.sorting-list:nth-child(4):hover,
+.sorting-list:nth-child(5):hover {
+color: #89b8d5;
+}
+
+.sorting-list:nth-child(4):active,
+.sorting-list:nth-child(5):active {
+color: #ffffff;
+border: none;
+}
+
 .sorting-list:nth-child(3) {
 text-decoration: none;
 font-size: 12px;
 line-height: 18px;
+color: #89b8d5;
 }
 
 .sorting-list:nth-child(3):active {
@@ -768,6 +809,14 @@ margin-top: 0px;
 margin-bottom: 10px;
 }
 
+.hotel-title:hover {
+color: #92bdd8;
+}
+
+.hotel-title:active {
+color: #b2b2b2;
+}
+
 .property-type {
 float:left;
 width: 83px;
@@ -798,7 +847,7 @@ padding-top: 5px;
 background-color: #669ec0;
 }
 
-.more:visited {
+.more:active {
 background-color: #5496bd;
 color: #7eb0cd;
 }
@@ -821,7 +870,7 @@ padding-top: 5px;
 background-color: #604e43;
 }
 
-.reservations:visited {
+.reservations:active {
 background-color: #503e33;
 color: #7e7169;
 }
