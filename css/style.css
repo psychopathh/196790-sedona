@@ -326,12 +326,16 @@ position: relative;
 }
 
 .map {
-position: absolute;
+position: relative;
 width: 1200px;
 height: 472px;
 left: -315px;
-top: 80px;
+bottom: 510px;
 z-index: 1;
+}
+
+.main-form {
+position: absolute;
 }
 
 .icon {
@@ -436,6 +440,7 @@ padding-top: 15px;
 .main-footer {
 position: relative;
 background-color: #ffffff;
+top: 75px;
 min-height: 120px;
 z-index: 3;
 }
