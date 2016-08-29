@@ -726,6 +726,12 @@ padding-right: 72px;
 float: right;
 }
 
+.stars {
+font-size: 19px;
+line-height: 21px;
+color: #81b3d2;
+}
+
 .sorting-list:nth-child(3) {
 text-decoration: none;
 font-size: 12px;
@@ -788,6 +794,15 @@ font-weight: bold;
 padding-top: 5px;
 }
 
+.more:hover {
+background-color: #669ec0;
+}
+
+.more:visited {
+background-color: #5496bd;
+color: #7eb0cd;
+}
+
 .reservations {
 display: inline-block;
 width: 142px;
@@ -800,6 +815,15 @@ font-size: 14px;
 line-height: 21px;
 font-weight: bold;
 padding-top: 5px;
+}
+
+.reservations:hover {
+background-color: #604e43;
+}
+
+.reservations:visited {
+background-color: #503e33;
+color: #7e7169;
 }
 
 .rating {
