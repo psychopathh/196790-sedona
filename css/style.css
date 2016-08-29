@@ -481,7 +481,7 @@ text-align: center;
 display: inline-block;
 width: 46px;
 height: 48px;
-margin: 0 6px;
+margin-right: 4px;
 background: #81b3d2 url("../img/spritesheet.png") no-repeat center;
 font-size: 0;
 text-decoration: none;
@@ -535,10 +535,7 @@ vertical-align: middle;
 .academy {
 display: inline-block;
 vertical-align: middle;
-}
-
-.academy a:hover {
-background-color: #c2dae9;
+margin-left: 5px;
 }
 
 .container {
