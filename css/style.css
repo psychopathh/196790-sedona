@@ -847,3 +847,12 @@ width:270px;
     height: 16px;
     background-position: -70px -75px;
 }
+
+@font-face {
+    font-family: "symbols-sedonaregular";
+
+    src: url("../fonts/symbols-sedona-webfont.eot");
+    src: url("../fonts/symbols-sedona-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/symbols-sedona-webfont.woff2") format("woff2"), url("../fonts/symbols-sedona-webfont.woff") format("woff"), url("../fonts/symbols-sedona-webfont.ttf") format("truetype"), url("../fonts/symbols-sedona-webfont.svg#symbols-sedonaregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
