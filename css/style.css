@@ -416,6 +416,7 @@ padding: 0;
 color: #a9a9a9;
 font-size: 14px;
 line-height: 26px;
+text-indent: -9999px;
 }
 
 .adult-grown {
@@ -937,14 +938,24 @@ width:270px;
     background-position: -70px -75px;
 }
 
+[class^="icon-"]:before,
+[class*=" icon-"]:before,
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+font-family: "symbols-sedona";
+}
+
 .icon-minus:before,
 .icon-minus::before {
 content: "\e802";
-font-family: "symbols-sedona";
 }
 
 .icon-plus:before,
 .icon-plus::before {
 content: "\e801";
-font-family: "symbols-sedona";
+}
+
+.icon-check-on:before,
+.icon-check-on::before {
+content: "\e2611";
 }
