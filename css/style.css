@@ -751,6 +751,20 @@ padding-right: 72px;
 text-decoration: none;
 font-size: 19px;
 line-height: 21px;
+color: #cccccc;
+margin-left: 10px;
+}
+
+.bottom:hover {
+color: #000000;
+}
+
+.bottom:active {
+color: #81b3d2;
+}
+
+.active {
+color: #81b3d2;
 }
 
 .top {
@@ -758,6 +772,23 @@ float: right;
 text-decoration: none;
 font-size: 19px;
 line-height: 21px;
+color: #cccccc;
+}
+
+.top:hover {
+color: #000000;
+}
+
+.top:active {
+color: #81b3d2;
+}
+
+.up {
+font-size: 0px;
+}
+
+.down {
+font-size: 0px;
 }
 
 .stars {
@@ -966,4 +997,14 @@ content: "\e801";
 .icon-check-on:before,
 .icon-check-on::before {
 content: "\e2611";
+}
+
+.icon-up-dir:before,
+.icon-up-dir::before {
+content: "\25b2";
+}
+
+.icon-down-dir:before,
+.icon-down-dir::before {
+content: "\25bc";
 }
