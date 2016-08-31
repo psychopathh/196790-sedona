@@ -427,7 +427,7 @@ padding: 0;
 text-align: center;
 outline: none;
 padding-left: 5px;
-
+font-weight: bold;
 }
 
 input::-webkit-inner-spin-button,
@@ -756,6 +756,9 @@ line-height: 21px;
 font-size: 19px;
 line-height: 21px;
 color: #81b3d2;
+margin: 0px;
+margin-bottom: 50px;
+text-align: right;
 }
 
 .sorting-list:nth-child(4),
@@ -891,6 +894,7 @@ color: #666666;
 background-color: #f2f2f2;
 padding: 5px 10px;
 text-align: center;
+margin: 0px;
 }
 
 .price-from {
@@ -933,13 +937,14 @@ width:270px;
     background-position: -70px -75px;
 }
 
-[class^="icon-"]:before,
-[class*=" icon-"]:before,
-[class^="icon-"]::before,
-[class*=" icon-"]::before {
+.icon-minus:before,
+.icon-minus::before {
+content: "\e802";
 font-family: "symbols-sedona";
 }
 
-.icon-minus {
-content: "0\802";
+.icon-plus:before,
+.icon-plus::before {
+content: "\e801";
+font-family: "symbols-sedona";
 }
