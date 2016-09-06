@@ -346,12 +346,6 @@ z-index: 1;
 position: absolute;
 }
 
-.icon {
-width: 20px;
-height: 20px;
-background: url("../img/calendar.png") no-repeat 100%;
-}
-
 .sub-menu {
 position: relative;
 margin: 0;
@@ -588,8 +582,72 @@ color: #ffffff;
 margin-bottom: 24px;
 }
 
-input[type="checkbox"] {
+.infrastructure input[type="checkbox"] {
 display: none;
+}
+
+.accommodation input[type="checkbox"] {
+display: none;
+}
+
+.infrastructure label {
+display: inline-block;
+margin-right: 100px;
+margin-bottom: 25px;
+}
+
+.accommodation label {
+display: inline-block;
+margin-right: 100px;
+margin-bottom: 25px;
+}
+
+.infrastructure input+label:before {
+font-family: "symbols-sedona";
+content: "\2610";
+margin-right: 8px;
+font-size: 26px;
+line-height: 20px;
+}
+
+.infrastructure input:hover {
+color: #fefefe;
+}
+
+.infrastructure input:disabled {
+color: #4b5151;
+}
+
+.infrastructure input:checked+label:before {
+font-family: "symbols-sedona";
+content: "\2611";
+margin-right: 8px;
+font-size: 26px;
+line-height: 20px;
+}
+
+.infrastructure input:checked+label:before:hover {
+color: #fefefe;
+}
+
+.infrastructure input:checked+label:before:disabled {
+color: #4b5151;
+}
+
+.accommodation input+label:before {
+font-family: "symbols-sedona";
+content: "\2610";
+margin-right: 8px;
+font-size: 26px;
+line-height: 20px;
+}
+
+.accommodation input:checked+label:before {
+font-family: "symbols-sedona";
+content: "\2611";
+margin-right: 8px;
+font-size: 26px;
+line-height: 20px;
 }
 
 .filter-string {
