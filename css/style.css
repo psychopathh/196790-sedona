@@ -346,6 +346,11 @@ z-index: 1;
 position: absolute;
 }
 
+.arrival-date input:before {
+font-family: "symbols-sedona";
+content: "\e800";
+}
+
 .sub-menu {
 position: relative;
 margin: 0;
